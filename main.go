@@ -11,8 +11,8 @@ import (
 	"github.com/lnnujxxy/go-gin-example/pkg/gredis"
 	"github.com/lnnujxxy/go-gin-example/pkg/logging"
 	"github.com/lnnujxxy/go-gin-example/pkg/setting"
-	"github.com/lnnujxxy/go-gin-example/routers"
 	"github.com/lnnujxxy/go-gin-example/pkg/util"
+	"github.com/lnnujxxy/go-gin-example/routers"
 )
 
 func init() {

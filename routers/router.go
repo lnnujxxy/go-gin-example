@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 
 	_ "github.com/lnnujxxy/go-gin-example/docs"
-	"github.com/swaggo/gin-swagger"
+	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
 	"github.com/lnnujxxy/go-gin-example/middleware/jwt"
@@ -14,7 +14,7 @@ import (
 	"github.com/lnnujxxy/go-gin-example/pkg/qrcode"
 	"github.com/lnnujxxy/go-gin-example/pkg/upload"
 	"github.com/lnnujxxy/go-gin-example/routers/api"
-	"github.com/lnnujxxy/go-gin-example/routers/api/v1"
+	v1 "github.com/lnnujxxy/go-gin-example/routers/api/v1"
 )
 
 // InitRouter initialize routing information

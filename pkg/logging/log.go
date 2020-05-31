@@ -2,11 +2,12 @@ package logging
 
 import (
 	"fmt"
-	"github.com/lnnujxxy/go-gin-example/pkg/file"
 	"log"
 	"os"
 	"path/filepath"
 	"runtime"
+
+	"github.com/lnnujxxy/go-gin-example/pkg/file"
 )
 
 type Level int
